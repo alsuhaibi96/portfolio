@@ -1,0 +1,635 @@
+:root {
+    --black: black;
+    --orangeColor: #fec714;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+li {
+    margin-right: 10%;
+
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.main-content-container {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home-header {
+    height: auto;
+    width: 100%;
+    position: relative;
+
+
+}
+
+#myInfoDiv {
+    padding: 100px 40px 20px 45px;
+
+}
+
+.myAbout-image-div {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    margin: 0 20px;
+
+}
+
+.nav-link {
+
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#changeLanguageBtn {
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: transparent;
+
+    border: 0px none transparent;
+}
+
+.top-left-div {
+
+    padding: 5px;
+
+
+    border-radius: 5px;
+
+    width: 60%;
+    float: right;
+}
+
+.footer-content-div {
+
+
+
+    width: 100%;
+    display: block;
+
+}
+
+
+
+.icons-container {
+
+    height: auto;
+    width: 50%;
+    position: absolute;
+    float: left;
+
+}
+
+
+.about-right-content {
+    width: 50%;
+    height: 100%;
+    float: right;
+
+}
+
+
+#img-myphoto-id {
+
+    float: left;
+}
+
+.middle-content {
+    margin-top: 45px;
+}
+
+.footer-content-div {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.footer-content-div .container .row {
+    margin: auto;
+
+}
+
+.footer-content-div .container .row .col-sm {
+    display: block;
+    margin: 10px 20px;
+    height: 200px;
+    border: 2px solid gray;
+
+    border-radius: 5px;
+    /* background-color: green; */
+}
+
+/*Buttons & anchors*/
+/* .Download-CV-btn:hover {
+    background-color: #ffd54d;
+} */
+
+.Download-CV-btn {
+    background-color: var(--orangeColor);
+    color: white;
+    display: block;
+    border-radius: 20px;
+    border-style: none;
+    height: 45px;
+    padding: 0 20px;
+
+    font-weight: 600;
+    font-size: 15px;
+
+
+}
+
+/*Texts and spans etc */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.hello-span {
+    color: var(--orangeColor);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.about-content {
+
+    font-size: 25px;
+}
+
+.myDescription {
+    margin-top: 20px;
+  
+}
+
+.paragraph-text {
+    padding-top: 20px;
+
+    font-weight: 600;
+}
+
+.myname-span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text-muted,
+h4 {
+    margin-right: 10px;
+}
+
+.info-label {
+    font-weight: 600;
+    margin: 0px 5px 30px 5px;
+}
+
+.navbar-nav .nav-item .nav-link,
+.changeLanguageBtnClass {
+    color: white;
+
+}
+
+.nav-link,
+.changeLanguageBtnClass {
+    font-size: 20px;
+}
+
+.changeLanguageBtnClass:hover {
+    opacity: 0.9;
+    ;
+}
+
+/* p{
+  padding: 0 20px 20px 0;
+} */
+.Servcies-paragraph,
+.services-headline {
+    margin: auto;
+    text-align: center;
+    display: block;
+
+
+
+    padding-top: 10px;
+
+    padding-bottom: 5px;
+}
+
+.footer-content-div .container .row .col-sm p {
+    display: block;
+    margin: auto;
+
+    text-align: center;
+    margin-left: 5px;
+}
+
+/* theme*/
+.theme-mode {
+    background-color: #f0f0f4;
+    /*rgb(228, 228, 228);*/
+    color: black;
+
+}
+
+
+/* Switch button Style*/
+.Theme-text {
+    padding: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #ffd54d;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+.Profilephoto-animation {
+    position: relative;
+}
+
+
+/* Media Query Responsive */
+
+/* Extra small devices lesser than 567 px*/
+/* For extra-small mobile phones: */
+@media only screen and (max-width:576px) {
+    #myFirstImageProfile {
+        width: 100%;
+
+    }
+
+    .myname-span {
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+
+    .myDescription {
+        font-size: 15px;
+    }
+
+    #myAboutImage {
+        width: 100%;
+
+    }
+
+    .Download-CV-btn {
+        display: block;
+        margin: auto;
+
+    }
+    #myInfoDiv {
+        padding: 20px 20px 20px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width:812px) {
+    #myAboutImage {
+        width: 100%;
+
+    }
+
+}
+
+
+/* Ipod devices lesser than 1080 px*/
+/* For Ipods: */
+@media only screen and (max-width:1080px) {
+    #myFirstImageProfile {
+        width: 100%;
+        float: right;
+    }
+
+    .myname-span {
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+
+    .myDescription {
+        font-size: 15px;
+    }
+
+    #myAboutImage {
+        width: 100%;
+
+    }
+
+    .Download-CV-btn {
+        display: block;
+        margin: auto;
+
+    }
+
+}
+
+
+/* icons style*/
+
+#iconsDivId{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+.col.item.social a {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.col.item.social a:hover {
+ font-size: 25px;
+}
+
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: left;
+        padding-bottom: 20px
+    }
+}
+
+
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0
+    }
+}
+
+.item.social {
+    text-align: left;
+}
+
+@media (max-width:991px) {
+    .item.social {
+        text-align: left;
+        margin-top: 20px
+    }
+}
+
+.item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(189, 189, 189, 0.993);
+    margin: 0 3px;
+    color: #fff;
+    opacity: 0.75
+}
+
+.item.social>a:hover {
+    opacity: 0.9
+}
+
+/* My web animation */
+
+
+.Profile-animation {
+
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    float: right;
+
+}
+
+@keyframes mymove {
+    50% {
+        left: 500px;
+        top: 0px;
+    }
+
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+.intro-animation {
+    margin-right: 10px;
+    position: relative;
+    animation: textLeft 2s;
+}
+
+@keyframes textLeft {
+    from {
+        top: 200px;
+        opacity: 0.0100;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+.element-to-hide {
+    visibility: hidden;
+}
+
+.about-content-animate {
+    visibility: visible;
+    position: relative;
+    animation-name: aboutText;
+    animation-duration: 5s;
+    animation-delay: -2s;
+
+
+}
+
+@keyframes aboutText {
+
+    50% {
+        opacity: 0.0100;
+        right: 600px;
+        top: 0px;
+    }
+
+    75% {
+        right: 0px;
+        top: 0px;
+    }
+
+}
+
+/* .selected{
+    color:red;
+  } */
+
+#webDevelopmentId:hover,
+#mobileDevelopment:hover,
+#ui-uxId:hover {
+    animation: shakeBox 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes shakeBox {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(5px, 1px) rotate(1deg);
+    }
+
+    20% {
+        transform: translate(10px, 1px) rotate(-2deg);
+    }
+
+    50% {
+        transform: translate(1px, -3px) rotate(-3deg);
+    }
+
+    70% {
+        transform: translate(1px, -3px) rotate(-4deg);
+    }
+
+    80% {
+        transform: translate(1px, -5px) rotate(-2deg);
+    }
+
+    90% {
+        transform: translate(1px, -3px) rotate(-3deg);
+    }
+
+    100% {
+        transform: translate(1px, -10px) rotate(-4deg);
+    }
+}
+
+#Download-CV-btn:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 2;
+}
+
+
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(3deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
