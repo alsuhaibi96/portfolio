@@ -637,3 +637,7 @@ flex-wrap: wrap;
 .border-raduis-2px{
     border: 2px solid gray;
 }
+
+.text-black-100{
+    color: black;
+}

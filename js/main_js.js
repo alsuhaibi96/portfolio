@@ -5,8 +5,6 @@ function animate(){
   
   }
     function changeTheme() {
-  
-    
        var element = document.body;
        element.classList.toggle("theme-mode");
        var element2=document.getElementById("nav-link-id");
@@ -14,6 +12,8 @@ function animate(){
        var element4=document.getElementById("nav-link-services-id");
        var element5=document.getElementById("nav-link-resume-id");
        var element6=document.getElementById("changeLanguageBtn") ;
+       var element7=document.getElementById("nav-link-projects-id");
+
     
       //  var element6=document.getElementsByTagName("i");
   
@@ -32,6 +32,8 @@ function animate(){
         element4.setAttribute('style','color: white');
         element5.setAttribute('style','color: white');
         element6.setAttribute('style','color: white');
+        element7.setAttribute('style','color: white');
+
   
           } else {
             for (i = 0; i < y.length; i++) {
@@ -42,6 +44,8 @@ function animate(){
             element4.setAttribute('style','color: black');
         element5.setAttribute('style','color: black');
         element6.setAttribute('style','color: black');
+        element7.setAttribute('style','color: black');
+
           }
   
    
@@ -129,4 +133,53 @@ function animate(){
   
 
   
-  
+  function changeThemeProject() {
+    var element = document.body;
+    element.classList.toggle("theme-mode");
+    var element2=document.getElementById("nav-link-id");
+    var element3=document.getElementById("nav-link-about-id");
+    var element4=document.getElementById("nav-link-projects-id");
+    var element5=document.getElementById("nav-link-resume-id");
+    var element6=document.getElementById("changeLanguageBtn") ;
+    var element7=document.getElementById("nav-link-projects-id");
+
+    const whiteTexts=document.querySelectorAll('.text-white');
+    const blackTexts=document.querySelectorAll('.text-black-100');
+
+    whiteTexts.forEach(element=>{
+element.classList.remove('text-white');
+element.classList.add('text-black-100');
+
+    });
+
+    blackTexts.forEach(element=>{
+      element.classList.remove('text-black-100');
+      element.classList.add('text-white');
+      
+          });
+
+ 
+
+
+    if (document.getElementById('switch-btn').checked) {
+   
+     element2.setAttribute('style','color: white');
+     element3.setAttribute('style','color: white');
+     element4.setAttribute('style','color: white');
+     element5.setAttribute('style','color: white');
+     element6.setAttribute('style','color: white');
+     element7.setAttribute('style','color: white');
+
+
+       } else {
+         element2.setAttribute('style','color: black');
+         element3.setAttribute('style','color: black');
+         element4.setAttribute('style','color: black');
+     element5.setAttribute('style','color: black');
+     element6.setAttribute('style','color: black');
+     element7.setAttribute('style','color: black');
+
+       }
+
+
+ }
