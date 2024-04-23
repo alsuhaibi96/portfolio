@@ -25,8 +25,8 @@ var dictionary = {
         'ar': '! مرحباًً',
     },
     'introduction': {  
-        'en': '  <span class="myname-span" >I Am Abdulrahman Alsuhaibi</span><br><br> I am a Full-stack Developer.<br> I build web and mobile apps using modern FrameWorks and they are : "Laravel PHP FrameWork" for Web Development and "Flutter" for Mobile development.',
-        'ar': '  <span class="myname-span " style="">انا عبدالرحمن الصهيبي</span><br><br> .مطور مواقع إلكترونية وتطبيقات الهاتف  <br> اقوم ببناء تطبيقات الويب والهاتف بإستخدام احدث اطارات التقنيات البرمجية  مثل : " لارافل " لبناء تطبيقات الويب و " فلاتر " لبناء تطبيقات الهاتف' ,
+        'en': '  <span class="myname-span" >I Am Abdulrahman Alsuhaibi</span><br><br>   As a Web Developer at FinTechSys, I worked with a team of experts to build and maintain web applications for the financial sector. I use Vue.js, Nuxt.js, HTML, CSS, JS, Bootstrap, and TailwindCSS to create user-friendly and responsive interfaces. I also work with Laravel and Frappe frameworks to integrate with the backend and the database.',
+        'ar': '  <span class="myname-span " style="">انا عبدالرحمن الصهيبي</span><br><br> كمطور ويب في FinTechSys، عملت مع فريق من الخبراء لبناء وصيانة تطبيقات الويب للقطاع المالي. أستخدم Vue.js وNuxt.js وHTML وCSS وJS وBootstrap وTailwindCSS لإنشاء واجهات سهلة الاستخدام وسريعة الاستجابة. أعمل أيضًا مع أطر عمل Laravel وFrappe للتكامل مع الواجهة الخلفية وقاعدة البيانات.' ,
     },
     
     'aboutMeLabel': {  
@@ -34,8 +34,8 @@ var dictionary = {
         'ar': 'عني',
     },
     'aboutMeContent': {  
-        'en': 'Full Stack Developer with experience in Web and Mobile development, developing, and   implementing applications and solutions using a range of modern technologies and programming languages.     Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.',
-        'ar': 'لدي خبرة جيدة في تطوير تطبيقات الهاتف والمواقع الإلكترونية حيث استطيع تطوير وبناء التطبيقات بإستخدام احدث التقنيات واللغات البرمجية . اطمح للحصول على خبرة كبيرة في التطوير  والتنافس كمطور للمواقع وتطبيقات الهاتف.',
+        'en': 'I have a strong background in web development, with a Bachelor\'s degree in Computer Science from Dhamar University and a Bootcamp Certificate in Full-stack Development from Coding Academy. I have also worked as a Web Application Developer for various clients, using WordPress, Laravel, and Agile methodologies. I have helped in improving ideas by 80% and worked well independently and in teams. I am passionate about learning new technologies and solving complex problems. I am motivated by creating innovative solutions that make a positive impact on society.',
+        'ar': 'لدي خلفية قوية في تطوير الويب، حيث حصلت على درجة البكالوريوس في علوم الكمبيوتر من جامعة ذمار وشهادة المعسكر التدريبي في التطوير من أكاديمية البرمجة. لقد عملت أيضًا كمطور تطبيقات ويب للعديد من العملاء، باستخدام منهجيات WordPress وLaravel وAgile. لقد ساعدت في تحسين الأفكار بنسبة 80% وعملت بشكل جيد بشكل مستقل وفي فرق. أنا متحمس لتعلم التقنيات الجديدة وحل المشكلات المعقدة. يحفزني إيجاد حلول مبتكرة لها تأثير إيجابي على المجتمع.',
     },
     'name': {  
         'en': 'Name :',
@@ -50,16 +50,16 @@ var dictionary = {
         'ar': 'العنوان :',
     },
     'addressContent': {  
-        'en': ' Yemen - Sana\'a',
-        'ar': 'اليمن - صنعاء',
+        'en': 'Saudi Arabia- Riadh',
+        'ar': 'المملكة العربية السعودية - الرياض',
     },
     'phoneNumber': {  
         'en': 'Phone Number :',
         'ar': 'رقم الهاتف :',
     },
     'phoneNumberContent': {  
-        'en': '+967775474720',
-        'ar': '967775474720+',
+        'en': '+966531441305',
+        'ar': '966531441305+',
     },
     'email': {  
         'en': 'Email :',
@@ -82,6 +82,10 @@ var dictionary = {
     'services': {  
         'en': 'SERVICES',
         'ar': 'خدماتنا',
+    },
+    'projects': {  
+        'en': 'PROJECTS',
+        'ar': 'المشاريع',
     },
     'ProvidingServices': {  
         'en': 'We provide services in the following',

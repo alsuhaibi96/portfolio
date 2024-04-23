@@ -140,12 +140,11 @@ a:hover {
 
 }
 
-.footer-content-div .container .row .col-sm {
+.footer-content-div  .container .row .col-sm {
     display: block;
     margin: 10px 20px;
     height: 200px;
     border: 2px solid gray;
-
     border-radius: 5px;
     /* background-color: green; */
 }
@@ -632,4 +631,9 @@ flex-wrap: wrap;
     100% {
         transform: translate(1px, -2px) rotate(-1deg);
     }
+}
+
+
+.border-raduis-2px{
+    border: 2px solid gray;
 }
