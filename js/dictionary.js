@@ -91,9 +91,9 @@ var dictionary = {
         'en': 'We provide services in the following',
         'ar': ': نوفر خدمات في ',
     },
-    'webDevelopment': {  
-        'en': 'Web Development',
-        'ar': 'تطوير مواقع الويب',
+    'I have built the following projects': {  
+        'en': 'I have built the following projects',
+        'ar': 'قمت بتطوير المواقع التالية',
     },
     'mobileDevelopment': {  
         'en': 'Mobile Development',
@@ -105,6 +105,49 @@ var dictionary = {
         'ar': 'UI , UX تصاميم ',
     },
    
-   
+    'Banking & E-Wallet Systems': {  
+        'en': 'Banking & E-Wallet Systems',
+        'ar': 'نظام بنكي',
+    },
 
+    'Ajeer partners': {  
+        'en': 'Ajeer partners',
+        'ar': 'شركاء اجير',
+    },
+
+    'Alkohlani E-Commerce and CMS Dashboard': {  
+        'en': 'Alkohlani E-Commerce and CMS Dashboard',
+        'ar': 'موقع ولوحة تحكم الكحلاني',
+    },
+
+    'Boxi Shipping System': {  
+        'en': 'Boxi Shipping System',
+        'ar': 'بوكسي للنقل',
+    },
+
+    'Hire Me- Open Source Project': {  
+        'en': 'Hire Me- Open Source Project',
+        'ar': 'موقع  للتوظيف',
+    },
+
+    'Rooms Renting- Open Source Project': {  
+        'en': 'Rooms Renting- Open Source Project',
+        'ar': 'مشروع ايجارات الغرف',
+    },
+  
+
+    'Light Nas Pharma Profile': {  
+        'en': 'Light Nas Pharma Profile',
+        'ar': 'لايت ناس فارما',
+    },
+
+    'Ajeer B2B Services System': {  
+        'en': 'Ajeer B2B Services System',
+        'ar': 'اجير لقطاع الاعمال',
+    },
+
+    'Banking System Profile': {  
+        'en': 'Banking System Profile',
+        'ar': 'بروفايل النظام البنكي',
+    },
 };

@@ -101,13 +101,20 @@ function animate(){
     
   }
   
-  function translate() {
+  function translate_projects(){
+    current_lang_index = ++current_lang_index % 2;
+    current_lang = langs[current_lang_index];
    
-      $("[data-translate]").each(function(){
-          var key = $(this).data('translate');
-          $(this).html(dictionary[key][current_lang] || "N/A");
-      });
+   translate();
+
   }
+  function translate() {
+    $("[data-translate]").each(function(){
+        var key = $(this).data('translate');
+        var translation = (dictionary[key] && dictionary[key][current_lang]) ? dictionary[key][current_lang] : "N/A";
+        $(this).html(translation);
+    });
+}
   
   translate();
   
