@@ -1,153 +1,161 @@
 var dictionary = {
-    'home': {  
+    'home': {
         'en': 'HOME',
         'ar': 'الرئيسية',
     },
-    'about': {  
+    'about': {
         'en': 'ABOUT',
         'ar': 'عني',
     },
-    'services': {  
+    'services': {
         'en': 'SERVICES',
         'ar': 'خدماتنا',
     },
-    'RESUME': {  
+    'RESUME': {
         'en': 'RESUME',
         'ar': 'السيرة الذاتية',
     },
-    'ChangeLanguage': {  
+    'ChangeLanguage': {
         'en': 'CHANGE LANGAUGE',
         'ar': 'تغيير اللغة',
     },
-   
-    'Hello': {  
+
+    'Hello': {
         'en': 'Hello !',
         'ar': '! مرحباًً',
     },
-    'introduction': {  
+    'introduction': {
         'en': '  <span class="myname-span" >I Am Abdulrahman Alsuhaibi</span><br><br>   As a Web Developer at FinTechSys, I worked with a team of experts to build and maintain web applications for the financial sector. I use Vue.js, Nuxt.js, HTML, CSS, JS, Bootstrap, and TailwindCSS to create user-friendly and responsive interfaces. I also work with Laravel and Frappe frameworks to integrate with the backend and the database.',
-        'ar': '  <span class="myname-span " style="">انا عبدالرحمن الصهيبي</span><br><br> كمطور ويب في FinTechSys، عملت مع فريق من الخبراء لبناء وصيانة تطبيقات الويب للقطاع المالي. أستخدم Vue.js وNuxt.js وHTML وCSS وJS وBootstrap وTailwindCSS لإنشاء واجهات سهلة الاستخدام وسريعة الاستجابة. أعمل أيضًا مع أطر عمل Laravel وFrappe للتكامل مع الواجهة الخلفية وقاعدة البيانات.' ,
+        'ar': '  <span class="myname-span " style="">انا عبدالرحمن الصهيبي</span><br><br> كمطور ويب في FinTechSys، عملت مع فريق من الخبراء لبناء وصيانة تطبيقات الويب للقطاع المالي. أستخدم Vue.js وNuxt.js وHTML وCSS وJS وBootstrap وTailwindCSS لإنشاء واجهات سهلة الاستخدام وسريعة الاستجابة. أعمل أيضًا مع أطر عمل Laravel وFrappe للتكامل مع الواجهة الخلفية وقاعدة البيانات.',
     },
-    
-    'aboutMeLabel': {  
+
+    'aboutMeLabel': {
         'en': 'About me',
         'ar': 'عني',
     },
-    'aboutMeContent': {  
+    'aboutMeContent': {
         'en': 'I have a strong background in web development, with a Bachelor\'s degree in Computer Science from Dhamar University and a Bootcamp Certificate in Full-stack Development from Coding Academy. I have also worked as a Web Application Developer for various clients, using WordPress, Laravel, and Agile methodologies. I have helped in improving ideas by 80% and worked well independently and in teams. I am passionate about learning new technologies and solving complex problems. I am motivated by creating innovative solutions that make a positive impact on society.',
         'ar': 'لدي خلفية قوية في تطوير الويب، حيث حصلت على درجة البكالوريوس في علوم الكمبيوتر من جامعة ذمار وشهادة المعسكر التدريبي في التطوير من أكاديمية البرمجة. لقد عملت أيضًا كمطور تطبيقات ويب للعديد من العملاء، باستخدام منهجيات WordPress وLaravel وAgile. لقد ساعدت في تحسين الأفكار بنسبة 80% وعملت بشكل جيد بشكل مستقل وفي فرق. أنا متحمس لتعلم التقنيات الجديدة وحل المشكلات المعقدة. يحفزني إيجاد حلول مبتكرة لها تأثير إيجابي على المجتمع.',
     },
-    'name': {  
+    'name': {
         'en': 'Name :',
         'ar': 'الإسم :',
     },
-    'nameContent': {  
+    'nameContent': {
         'en': ' Abdulrahman Alsuhaibi',
         'ar': 'عبدالرحمن الصهيبي ',
     },
-    'address': {  
+    'address': {
         'en': 'Address :',
         'ar': 'العنوان :',
     },
-    'addressContent': {  
+    'addressContent': {
         'en': 'Saudi Arabia- Riadh',
         'ar': 'المملكة العربية السعودية - الرياض',
     },
-    'phoneNumber': {  
+    'phoneNumber': {
         'en': 'Phone Number :',
         'ar': 'رقم الهاتف :',
     },
-    'phoneNumberContent': {  
+    'phoneNumberContent': {
         'en': '+966531441305',
         'ar': '966531441305+',
     },
-    'email': {  
+    'email': {
         'en': 'Email :',
         'ar': 'الايميل :',
     },
-    'emailContent': {  
+    'emailContent': {
         'en': 'alsuhaibiabdulrahman@gmail.com',
         'ar': 'alsuhaibiabdulrahman@gmail.com',
     },
-    'ContentLanguage':{
-      'en':'Language Content',
-      'ar':'محتوى اللغة',
+    'ContentLanguage': {
+        'en': 'Language Content',
+        'ar': 'محتوى اللغة',
     },
-    
-    'DownloadCv': {  
+
+    'DownloadCv': {
         'en': 'Download CV',
         'ar': 'تحميل السيرة الذاتية',
     },
-  
-    'services': {  
+
+    'services': {
         'en': 'SERVICES',
         'ar': 'خدماتنا',
     },
-    'projects': {  
+    'projects': {
         'en': 'PROJECTS',
         'ar': 'المشاريع',
     },
-    'ProvidingServices': {  
+    'ProvidingServices': {
         'en': 'We provide services in the following',
         'ar': ': نوفر خدمات في ',
     },
-    'I have built the following projects': {  
+    'I have built the following projects': {
         'en': 'I have built the following projects',
         'ar': 'قمت بتطوير المواقع التالية',
     },
-    'mobileDevelopment': {  
+    'mobileDevelopment': {
         'en': 'Mobile Development',
         'ar': ' تطوير تطبيقات الهاتف',
     },
-   
-    'UI-UX': {  
+
+    'UI-UX': {
         'en': 'UI/UX Design',
         'ar': 'UI , UX تصاميم ',
     },
-   
-    'Banking & E-Wallet Systems': {  
+
+    'Banking & E-Wallet Systems': {
         'en': 'Banking & E-Wallet Systems',
         'ar': 'نظام بنكي',
     },
 
-    'Ajeer partners': {  
+    'Ajeer partners': {
         'en': 'Ajeer partners',
         'ar': 'شركاء اجير',
     },
 
-    'Alkohlani E-Commerce and CMS Dashboard': {  
+    'Alkohlani E-Commerce and CMS Dashboard': {
         'en': 'Alkohlani E-Commerce and CMS Dashboard',
         'ar': 'موقع ولوحة تحكم الكحلاني',
     },
 
-    'Boxi Shipping System': {  
+    'Boxi Shipping System': {
         'en': 'Boxi Shipping System',
         'ar': 'بوكسي للنقل',
     },
 
-    'Hire Me- Open Source Project': {  
+    'Hire Me- Open Source Project': {
         'en': 'Hire Me- Open Source Project',
         'ar': 'موقع  للتوظيف',
     },
 
-    'Rooms Renting- Open Source Project': {  
+    'Rooms Renting- Open Source Project': {
         'en': 'Rooms Renting- Open Source Project',
         'ar': 'مشروع ايجارات الغرف',
     },
-  
 
-    'Light Nas Pharma Profile': {  
+
+    'Light Nas Pharma Profile': {
         'en': 'Light Nas Pharma Profile',
         'ar': 'لايت ناس فارما',
     },
 
-    'Ajeer B2B Services System': {  
+    'Ajeer B2B Services System': {
         'en': 'Ajeer B2B Services System',
         'ar': 'اجير لقطاع الاعمال',
     },
 
-    'Banking System Profile': {  
+    'Banking System Profile': {
         'en': 'Banking System Profile',
         'ar': 'بروفايل النظام البنكي',
     },
+    'Rawabi Real estate': {
+        'en': 'Rawabi Real estate',
+        'ar': 'الروابي العقارية'
+    },
+    'Promising Jobs': {
+        'en': 'Promising Jobs',
+        'ar': 'وظائف واعدة'
+    }
 };
